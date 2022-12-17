@@ -4,16 +4,16 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-n = input('Введите число: ')
+# n = input('Введите число: ')
                         
-if float(n) < 0:                            
-    x = float(n) * (-1)
-sum = 0
+# if float(n) < 0:                            
+#     x = float(n) * (-1)
+# sum = 0
 
-for i in str(n):
-    if i != '.':
-        sum += int(i)
-print(sum)
+# for i in str(n):
+#     if i != '.':
+#         sum += int(i)
+# print(sum)
 
 
 # Задача 2. Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
@@ -58,4 +58,9 @@ print(sum)
 #     j = random.randint(0, i + 1)
 #     list[i], list[j] = list[j], list[i]
 # print(list)
+
+
+
+
+
 
